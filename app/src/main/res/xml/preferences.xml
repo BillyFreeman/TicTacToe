@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="PLAYER">
+        <EditTextPreference
+            android:key="playersName"
+            android:title="Enter new players name" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="LEVEL">
+        <CheckBoxPreference
+            android:key="yes"
+            android:title="Do you want to use AI?" />
+    </PreferenceCategory>
+</PreferenceScreen>

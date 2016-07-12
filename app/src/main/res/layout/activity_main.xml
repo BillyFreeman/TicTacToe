@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/x_mode"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@color/main_theme"
+            android:textColor="@color/main_text"
+            android:textSize="65dp"
+            android:text="@string/X" />
+
+        <Button
+            android:id="@+id/o_mode"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@color/second_theme"
+            android:textColor="@color/main_text"
+            android:textSize="65dp"
+            android:text="@string/O" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/new_game"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="@color/third_theme"
+            android:textSize="36dp"
+            android:textColor="@color/main_text"
+            android:text="New" />
+
+        <Button
+            android:id="@+id/settings"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="@color/main_theme"
+            android:textSize="36dp"
+            android:textColor="@color/main_text"
+            android:text="Set" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+    <Button
+        android:id="@+id/statistics"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:background="@color/main_theme"
+        android:textSize="36dp"
+        android:textColor="@color/main_text"
+        android:text="Stat" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:background="@color/third_theme"
+        android:textSize="36dp"
+        android:textColor="@color/main_text"
+        android:text="Exit" />
+
+        </LinearLayout>
+</LinearLayout>

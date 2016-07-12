@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="main_background">#282834</color>
+    <color name="main_theme">#1C5C65</color>
+    <color name="second_theme">#F56F6C</color>
+    <color name="third_theme">#0D4C5B</color>
+    <color name="action_bar">#1E222B</color>
+    <color name="main_text">#ffffff</color>
+</resources>
